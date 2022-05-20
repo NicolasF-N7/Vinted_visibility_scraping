@@ -1,0 +1,14 @@
+{
+  "dataFilePath": "/home/nico/Documents/prog/web/ISLA/Vinted_visibility_scraping/visibility_data_isla_account.csv",
+  "connectionMaxTrial": "20",
+  "cookiesFilePath": "/home/nico/Documents/prog/web/ISLA/Multichan_V1/cookies_vinted_isla.json",
+  "postsURL":[
+    "https://www.vinted.fr/femmes/vetements/robes/robes-longues/1821086980-robe-chemise-en-soie-beige",
+    "https://www.vinted.fr/femmes/vetements/robes/robes-longues/1821095007-robe-chemise-blanche",
+    "https://www.vinted.fr/femmes/vetements/hauts-and-tee-shirts/chemises/1821112301-chemise-en-soie-kaki",
+    "https://www.vinted.fr/femmes/vetements/hauts-and-tee-shirts/tops-epaules-decouvertes/1821131727-top-noir",
+    "https://www.vinted.fr/femmes/vetements/manteaux-and-vestes/impermeables/1821147797-parka-kaki",
+    "https://www.vinted.fr/femmes/vetements/manteaux-and-vestes/vestes/vestes-en-jean/1821160993-trucker-rouge",
+    "https://www.vinted.fr/femmes/vetements/robes/mini/1872607502-robe-courte-en-denim"
+  ]
+}

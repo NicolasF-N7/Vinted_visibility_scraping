@@ -1,0 +1,31 @@
+{
+  "dataFilePath": "/home/nico/Documents/prog/web/ISLA/Vinted_visibility_scraping/visibility_data_nico_account.csv",
+  "connectionMaxTrial": "20",
+  "cookiesFilePath": "/home/nico/Documents/prog/web/ISLA/Multichan_V1/cookies_vinted_nico.json",
+  "postsURL":[
+    "https://www.vinted.fr/femmes/vetements/manteaux-and-vestes/vestes/vestes-legeres/1726609234-veste-bleu-fonce",
+    "https://www.vinted.fr/hommes/vetements/sweats-and-pulls/pulls-ras-de-cou/1792759322-pull-vert-fusalp-neuf",
+    "https://www.vinted.fr/femmes/vetements/sweats-and-sweats-a-capuche/pulls-col-v/1726700523-pull-laine-merinos-bleu-fonce-col-v-fusalp-neuf",
+    "https://www.vinted.fr/hommes/vetements/manteaux-and-vestes/vestes/vestes-legeres/1794920933-veste-rouge-vermillon-fusalp-neuve",
+    "https://www.vinted.fr/femmes/vetements/sweats-and-sweats-a-capuche-196/1728883693-sweat-jaune-neuf-fusalp",
+    "https://www.vinted.fr/femmes/vetements/sweats-and-sweats-a-capuche/autres-sweats/1747175061-sweat-blanc-neuf-fusalp",
+    "https://www.vinted.fr/femmes/vetements/vetements-de-sport/vetements-dexterieur/1794926764-white-hoodie-fusalp-brand-new",
+    "https://www.vinted.fr/femmes/vetements/pantalons-and-leggings/pantalons-droits/1728899724-pentalon-toile-bleu-glacier-neuf-fusalp",
+    "https://www.vinted.fr/femmes/vetements/manteaux-and-vestes/trenchs/1718026975-veste-blanche-lanans",
+    "https://www.vinted.fr/femmes/vetements/hauts-and-tee-shirts/tee-shirts/1728905736-polo-rose-manches-courtes-neuf-fusalp",
+    "https://www.vinted.fr/hommes/vetements/hauts-and-tee-shirts/chemises/chemises-unies/1728913722-chemise-manche-longue-neuve-fusalp",
+    "https://www.vinted.fr/femmes/vetements/jupes/jupes-trapeze/1718050796-jupe-rouge-mia",
+    "https://www.vinted.fr/femmes/vetements/shorts/shorts-longueur-genou/1728925945-pantacourt-gris-neuf-fusalp",
+    "https://www.vinted.fr/femmes/vetements/jupes/jupes-longues/1794934499-red-orange-long-skirt-fusalp-brand-new",
+    "https://www.vinted.fr/femmes/vetements/hauts-and-tee-shirts/tee-shirts/1718082156-t-shirt-bleu-royal-baud",
+    "https://www.vinted.fr/hommes/vetements/manteaux-and-vestes/vestes/vestes-en-duvet/1788548885-veste-epaisse-orange-neuve",
+    "https://www.vinted.fr/hommes/vetements/sweats-and-pulls-1811/1788555723-pull-blanc-neuf-aigle",
+    "https://www.vinted.fr/femmes/vetements/manteaux-and-vestes/vestes/vestes-legeres/1788561678-veste-vert-kaki-neuve-aigle",
+    "https://www.vinted.fr/hommes/vetements/manteaux-and-vestes/vestes/vestes-polaires/1788567818-veste-noir-grise-neuve-aigle",
+    "https://www.vinted.fr/femmes/vetements/manteaux-and-vestes/vestes/vestes-polaires/1788576281-veste-polaire-grise-et-kaki-neuve-aigle",
+    "https://www.vinted.fr/hommes/vetements/manteaux-and-vestes/vestes/vestes-polaires/1788582397-veste-bleu-col-en-polaire-neuve-aigle",
+    "https://www.vinted.fr/femmes/vetements/manteaux-and-vestes/vestes/vestes-en-duvet/1788588079-veste-bleu-interieur-en-polaire-neuve-aigle",
+    "https://www.vinted.fr/femmes/vetements/robes/robes-longues/1827669163-robe-velentino-en-soie",
+    "https://www.vinted.fr/femmes/vetements/pantalons-and-leggings/pantalons-droits/1827709663-pantalon-blanc-valentino"
+  ]
+}
