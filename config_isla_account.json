@@ -1,7 +1,7 @@
 {
-  "dataFilePath": "/home/nico/Documents/prog/web/ISLA/Vinted_visibility_scraping/visibility_data_isla_account.csv",
+  "dataFilePath": "/home/nico/Documents/prog/web/ISLA/vinted_visibility_scraping/visibility_data_isla_account.csv",
   "connectionMaxTrial": "20",
-  "cookiesFilePath": "/home/nico/Documents/prog/web/ISLA/Multichan_V1/cookies_vinted_isla.json",
+  "cookiesFilePath": "/home/nico/Documents/prog/web/ISLA/multichan_V1/cookies_vinted_isla.json",
   "postsURL":[
     "https://www.vinted.fr/femmes/vetements/robes/robes-longues/1821086980-robe-chemise-en-soie-beige",
     "https://www.vinted.fr/femmes/vetements/robes/robes-longues/1821095007-robe-chemise-blanche",
@@ -9,6 +9,31 @@
     "https://www.vinted.fr/femmes/vetements/hauts-and-tee-shirts/tops-epaules-decouvertes/1821131727-top-noir",
     "https://www.vinted.fr/femmes/vetements/manteaux-and-vestes/impermeables/1821147797-parka-kaki",
     "https://www.vinted.fr/femmes/vetements/manteaux-and-vestes/vestes/vestes-en-jean/1821160993-trucker-rouge",
-    "https://www.vinted.fr/femmes/vetements/robes/mini/1872607502-robe-courte-en-denim"
+    "https://www.vinted.fr/femmes/vetements/robes/mini/1872607502-robe-courte-en-denim",
+    "https://www.vinted.fr/hommes/vetements/sweats-and-pulls/pulls-a-capuche-avec-zip/1880648279-yellow-sweat-fusalp-brand-new",
+    "https://www.vinted.fr/femmes/vetements/manteaux-and-vestes/autres-manteaux-and-vestes/1880692837-pink-purple-jacket-fusalp-brand-new",
+    "https://www.vinted.fr/femmes/vetements/manteaux-and-vestes/vestes/vestes-legeres/1880716856-grey-khaki-jacket-fusalp-brand-new",
+    "https://www.vinted.fr/femmes/vetements/manteaux-and-vestes/trenchs/1901490381-trench-blanc-fusalp-neuf",
+    "https://www.vinted.fr/femmes/vetements/sweats-and-sweats-a-capuche-196/1901522546-veste-bleu-marine-a-capuche-neuve-fusalp",
+    "https://www.vinted.fr/femmes/vetements/sweats-and-sweats-a-capuche/pulls-col-v/1901583815-pull-bleu-marine-en-laine-merinos-col-en-v-neuf-fusalp",
+    "https://www.vinted.fr/femmes/vetements/jupes/jupes-trapeze/1901604577-red-short-skirt-fusalp-brand-new",
+    "https://www.vinted.fr/femmes/vetements/sweats-and-sweats-a-capuche-196/1901701267-pull-jaune-col-rond-fusalp-neuf",
+    "https://www.vinted.fr/hommes/vetements/sweats-and-pulls/pulls-et-pulls-a-capuche/1901722530-pull-vert-fusalp-neuf",
+    "https://www.vinted.fr/femmes/vetements/pantalons-and-leggings/pantalons-droits/1901742155-pantalon-bleu-glacier-neuf-fusalp",
+    "https://www.vinted.fr/femmes/vetements/shorts/shorts-en-jean/1901758275-short-gris-neuf-fusalp",
+    "https://www.vinted.fr/femmes/vetements/jupes/jupes-trapeze/1901604577-red-short-skirt-fusalp-brand-new",
+    "https://www.vinted.fr/hommes/vetements/hauts-and-tee-shirts/chemises/chemises-unies/1901795033-chemise-blanche-a-manche-longue-neuve-fusalp",
+    "https://www.vinted.fr/femmes/vetements/hauts-and-tee-shirts/tee-shirts/1901806794-top-bleu-marine-col-en-v-neuf-fusalp",
+    "https://www.vinted.fr/hommes/vetements/vetements-de-sport-and-accessoires/pulls-and-sweats/1901823460-pull-a-capuche-et-zip-blanc-neuf-fusalp",
+    "https://www.vinted.fr/femmes/vetements/manteaux-and-vestes/vestes/vestes-en-duvet/1908131870-orange-winter-jacket-brand-new-aigle-size-l-women",
+    "https://www.vinted.fr/femmes/vetements/manteaux-and-vestes/vestes/vestes-matelassees/1908148734-veste-epaisse-orange-neuve-aigle-taille-l-femme",
+    "https://www.vinted.fr/femmes/vetements/manteaux-and-vestes/vestes/vestes-polaires/1908168600-aigle-blue-jacket-with-polar-neck-brand-new-size-xl-women",
+    "https://www.vinted.fr/femmes/vetements/manteaux-and-vestes/vestes/vestes-polaires/1908192486-aigle-khaki-polar-jacket-brand-new-size-m-women",
+    "https://www.vinted.fr/hommes/vetements/sweats-and-pulls/pulls-ras-de-cou/1908582321-pull-blanc-neuf-marque-aigle-taille-s-homme",
+    "https://www.vinted.fr/femmes/vetements/manteaux-and-vestes/vestes/vestes-polaires/1908620453-aigle-khaki-polar-jacket-brand-new-size-m-women",
+    "https://www.vinted.fr/femmes/vetements/manteaux-and-vestes/vestes/vestes-polaires/1908639179-black-grey-polar-jacket-brand-new-aigle-size-xl-women",
+    "https://www.vinted.fr/hommes/vetements/manteaux-and-vestes/vestes/vestes-polaires/1908666933-blue-jacket-polar-inside-brand-new-aigle-size-m-men",
+    "https://www.vinted.fr/femmes/vetements/robes/robes-longues/1908706975-valentino-silk-black-dress-with-flower-design-size-l-excellent-condition",
+    "https://www.vinted.fr/femmes/vetements/robes/robes-chics/1908761998-m-missoni-short-black-dress-size-xs-never-worn-round-neck"
   ]
 }

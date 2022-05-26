@@ -55,7 +55,8 @@ puppeteer.launch({ headless: false, defaultViewport: null, args:['--start-minimi
 	for(let i=0; i < nbPosts; i++){
 		let url = config.postsURL[i];
 		let name = url.substring(url.lastIndexOf('/')+1, url.length);
-		console.log("Visiting " + name);
+		let cleanedName = name.replace(/[\d]/g, '').replace(/[-]/g, ' '); // cleaning digits from URL
+		console.log("Visiting " + cleanedName);
 
 		//===Connectivity trial===
 		let connectionSuccess = false;
@@ -74,26 +75,33 @@ puppeteer.launch({ headless: false, defaultViewport: null, args:['--start-minimi
 
 		//===Retrieve #View & #Fav===
 		//Get the container element of data about the cloth (right square on the page)
-		await page.waitForSelector('div.details-list--main-info');
-		const dataList = await page.$$('div.details-list--main-info div.details-list__item');
-		//Iterate through data items to find Views and Fav
-		for(const dataListItem of dataList) {
-			let titleElem = await dataListItem.$('.details-list__item-title');
-			if(titleElem != null){
-				let titleText = await titleElem.evaluate(el => el.textContent);
+		try{
+			// IF ITEM SOLD: waitForSelector will throw TimeoutError
+			await page.waitForSelector('div.details-list--main-info');
+			const dataList = await page.$$('div.details-list--main-info div.details-list__item');
+			//Iterate through data items to find Views and Fav
+			for(const dataListItem of dataList) {
+				let titleElem = await dataListItem.$('.details-list__item-title');
+				if(titleElem != null){
+					let titleText = await titleElem.evaluate(el => el.textContent);
 
-				if(titleText == "Nombre de vues"){
-					let nbViews = await dataListItem.$eval('.details-list__item-value', el => el.textContent);
-					newDataLine += nbViews + ',';
-					console.log("# Views : " + nbViews);
-				}
-				else if(titleText == "Articles favoris"){
-					let nbFav = await dataListItem.$eval('.details-list__item-value', el => el.textContent);
-					newDataLine += nbFav + ',';
-					console.log("# Fav : " + nbFav);
+					if(titleText == "Nombre de vues"){
+						let nbViews = await dataListItem.$eval('.details-list__item-value', el => el.textContent);
+						newDataLine += nbViews + ',';
+						console.log("# Views : " + nbViews);
+					}
+					else if(titleText == "Articles favoris"){
+						let nbFav = await dataListItem.$eval('.details-list__item-value', el => el.textContent);
+						newDataLine += nbFav + ',';
+						console.log("# Fav : " + nbFav);
+					}
 				}
 			}
+		}catch(err){
+			newDataLine += '-,-,';
+			console.log("Item sold");
 		}
+
 	}
 
 	newDataLine += '\n';
